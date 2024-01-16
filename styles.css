@@ -1,0 +1,190 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #28282B;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+body .monster-middle {
+  background-color: #28282B;
+}
+
+
+.buy {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #28282B;
+}
+
+.buy:hover {
+  background-color: #2980b9;
+  color: #ffffff; /* Change text color on hover for better contrast */
+}
+
+/* responsive */
+
+@media screen  and (max-width : 515px) {
+ 
+  
+}
+
+.monster-middle img {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: cover; 
+  position: absolute;
+  top: 10%;
+  left: 0%;/* Maintain aspect ratio and cover the container */
+ 
+}
+
+.best-monster {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px; 
+  height: 650px; 
+ 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  
+  background-color: #28282B;
+  flex-wrap: wrap;
+  
+  
+
+  
+}
+.text {
+  word-wrap: break-word; /* Allow long words to break and wrap */
+  position: absolute;
+  left: 30%;
+  font-size:30px;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin : auto;
+}
+nav {
+ 
+  background-color : #28282B;
+  height : 60px;
+  
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left : 0%;
+  
+  
+
+}
+
+.products img {
+  max-width: fit-content;
+  height: 100px;
+  position: absolute;
+  left : 30%;
+  top : 15%;
+
+}
+
+h1 {
+  position: absolute;
+  left : 30%;
+  top  :5%;
+}
+hr {
+  width: 600px;
+  height: 0.25px;
+  background-color :#28282B;
+  position: absolute;
+  top : 12%;
+  left : 29%;
+}
+.hr1{
+  width: 600px;
+  height: 0.25px;
+  background-color :#28282B;
+  position: absolute;
+  top : 28%;
+  left : 29%;
+}
+
+
+.buy-now-btn {
+ 
+  margin: 5px;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left :55%;
+  top : 15%;
+  background-color: #ffffff;
+  color: #28282B;
+  height: 30px;
+  width: 30px;
+}
+.buy-now-btn :hover  {
+  background :  #2980b9;
+  color: #ffffff
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 50px;
+  text-align: center;
+  height: 20px;
+  position: absolute;
+  left : 50%;
+  top: 20%;
+  border-radius: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  
+}
+p {
+  position: absolute;
+  left : 32%;
+  top  : 12%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+ 
+
+}
+
+
+
+
+
